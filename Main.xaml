@@ -76,7 +76,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="This message sent via UiPath SMTP Mail Message Activity" DisplayName="Send SMTP Mail Message" EnableSSL="True" From="FacilitatedEnrollmentBot@dmas.virginia.gov" sap:VirtualizedContainerService.HintSize="387.2,148.8" sap2010:WorkflowViewState.IdRef="SendMail_1" IgnoreCRL="False" IsBodyHtml="False" Name="Facilitated Enrollment Bot" Port="25" SecureConnection="Auto" Server="csmtp.cov.virginia.gov" Subject="SMTP FE Bot Test" To="abowen@wizesolutionsva.com;jjohnson@wizesolutionsva.com">
+    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="This message sent via UiPath SMTP Mail Message Activity" DisplayName="Send SMTP Mail Message" EnableSSL="True" From="FacilitatedEnrollmentBot@dmas.virginia.gov" sap:VirtualizedContainerService.HintSize="387.2,148.8" sap2010:WorkflowViewState.IdRef="SendMail_1" IgnoreCRL="False" IsBodyHtml="False" Name="Facilitated Enrollment Bot" Port="25" SecureConnection="None" Server="csmtp.cov.virginia.gov" Subject="SMTP FE Bot Test" To="abowen@wizesolutionsva.com;jjohnson@wizesolutionsva.com;Thomas.Houchen@dmas.virginia.gov">
       <ui:SendMail.Files>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
       </ui:SendMail.Files>
